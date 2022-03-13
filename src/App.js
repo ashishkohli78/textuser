@@ -28,6 +28,8 @@ function App() {
       <Alert Alert={alert} />
       <Switch>
           <Route path="/Home"><Textform showAlert={showAlert} heading="Enter the Text Below" /></Route>
+          <Route path=""><Textform showAlert={showAlert} heading="Enter the Text Below" /></Route>
+
           <Route path="/About"><About/></Route>
    
          </Switch>
